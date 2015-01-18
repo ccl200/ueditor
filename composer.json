@@ -1,0 +1,25 @@
+{
+    "name": "ccl/ueditor",
+    "description": "",
+    "keywords": ["laravl","ueditro","scratch"],
+    "authors": [
+        {
+            "name": "ccl",
+            "email": "452396529@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "illuminate/support": "4.2.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+			"src/controllers"
+        ],
+        "psr-0": {
+            "Ccl\\Ueditor\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
